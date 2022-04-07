@@ -1,0 +1,21 @@
+{
+  "name": "microservice-base-consumer",
+  "version": "1.0.0",
+  "description": "A base structure for microservice which consume messages from a RabbitMQ exchange and saves them on a MongoDB database.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "axios": "^0.26.0",
+    "config": "^3.3.7",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "winston": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
